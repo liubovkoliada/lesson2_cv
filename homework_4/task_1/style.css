@@ -1,0 +1,25 @@
+h1 {
+  color: #ffffff;
+  text-align: center;
+  background-color: #a52a2a;
+}
+img {
+  width: 100%;
+}
+article img {
+  border-style: dotted;
+  width: auto;
+}
+article {
+  text-align: center;
+  font-size: 18px;
+}
+article p {
+  text-align: left;
+}
+footer {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 20px;
+  text-align: center;
+}
