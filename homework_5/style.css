@@ -1,0 +1,32 @@
+body {
+  background-color: #121116;
+}
+footer {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 115px;
+}
+.social {
+  width: 230px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.social a {
+  margin: 0 15px;
+}
+.border {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 12px;
+}
+.copyright {
+  color: #ffffff;
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 80px;
+}
+span {
+  color: #077ea0;
+}
