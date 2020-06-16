@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+}
+.service-icon {
+  border-radius: 50%;
+  border: solid 2px;
+  border-color: #2a69a6;
+  width: 65px;
+  height: 65px;
+  background-color: #2a69a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.service-title {
+  width: 150px;
+  height: 20px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+  padding: 10px;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+.service-description {
+  width: 220px;
+  height: 52px;
+  color: #9d9d9d;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.35px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.service {
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+  width: auto;
+}
+.services {
+  width: 100%;
+  align-items: center;
+}
+.service-icon:hover {
+  border: solid 2px;
+  border-color: #2a69a6;
+  background-color: #ffff;
+}
+/* for tablet*/
+.tablet_blue {
+  display: none;
+}
+.service-icon:hover .tablet_blue {
+  display: block;
+}
+.service-icon:hover .tablet_white {
+  display: none;
+}
+/*for settings*/
+.settings_blue {
+  display: none;
+}
+.service-icon:hover .settings_blue {
+  display: block;
+}
+.service-icon:hover .settings_white {
+  display: none;
+  /*for dashboard*/
+}
+.dashboard_blue {
+  display: none;
+}
+.service-icon:hover .dashboard_blue {
+  display: block;
+}
+.service-icon:hover .dashboard_white {
+  display: none;
+}
