@@ -1,0 +1,82 @@
+body {
+  background-color: #3399cc;
+  margin: 0;
+  border: 15px solid #2b81ac;
+  font-family: sans-serif;
+}
+.description {
+  font-size: 20px;
+  color: #ffffff;
+}
+.weather_list {
+  list-style: none;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 0;
+  padding-left: 0;
+}
+.content {
+  margin: 100px auto;g
+  width: 800px;
+}
+.weather_item {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  align-items: center;
+  border: 2px solid #ffffff;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.weather_item:hover {
+  opacity: 0.5;
+}
+.small {
+  width: 25%;
+}
+.middle {
+  width: 50%;
+}
+.large {
+  width: 100%;
+}
+.color_1 {
+  background-color: #3399cc;
+}
+.color_2 {
+  background-color: #33cccc;
+}
+.color_3 {
+  background-color: #996699;
+}
+.color_4 {
+  background-color: #c24747;
+}
+.color_5 {
+  background-color: #e2674a;
+}
+.color_6 {
+  background-color: #ffcc66;
+}
+.color_7 {
+  background-color: #99cc99;
+}
+.color_8 {
+  background-color: #669999;
+}
+.color_9 {
+  background-color: #cc6699;
+}
+.color_10 {
+  background-color: #339966;
+}
+.color_11 {
+  background-color: #666699;
+}
+.wi {
+  font-size: 20px;
+  opacity: 0.8;
+}
+.info {
+  opacity: 0.8;
+}
