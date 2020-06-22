@@ -1,0 +1,69 @@
+body {
+  padding: 125px 90px 125px 90px;
+}
+.container {
+  box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  max-width: 1400px;
+  max-height: 940px;
+  padding: 125px 100px 115px 100px;
+}
+.title {
+  color: #171717;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+  margin: 0;
+}
+.description {
+  opacity: 0.7;
+  color: #171717;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.09px;
+  line-height: 34px;
+  max-width: 1140px;
+}
+.description:first-letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 88px;
+  text-transform: uppercase;
+  letter-spacing: -0.55px;
+  font-size: 100px;
+  float: left;
+  margin: 0 50px 14px 0;
+}
+
+blockquote {
+  font-family: "Myriad Pro Regular";
+  font-style: italic;
+}
+.button {
+  width: 264px;
+  height: 68px;
+  color: #eaa258;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  border: 1px solid #eaa258;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #eaa258;
+}
+blockquote::before {
+  content: open-quote;
+  font-size: 35px;
+}
+blockquote {
+  margin: 20px auto 40px 0;
+}
