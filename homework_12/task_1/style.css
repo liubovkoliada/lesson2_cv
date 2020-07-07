@@ -1,0 +1,26 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #e5eeee;
+  min-height: 100vh;
+  background-color: #e5eeee;
+}
+.logbox {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.logbox__container {
+  max-width: 400px;
+  background-image: url(../img/bg-modal.jpg);
+  background-size: cover;
+  padding: 50px 70px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(2, 41, 120, 0.1);
+}
