@@ -1,0 +1,142 @@
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+}
+/*for header*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-wrap {
+  display: flex;
+}
+.content {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: #1a212f;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+  padding-left: 15px;
+}
+.icon_cat {
+  display: inline-block;
+  width: 63px;
+  height: 52px;
+}
+/*for banner*/
+.banner {
+  background-image: url(images/cat1.png);
+  min-height: 504px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.banner__content {
+  padding: 153px 50px 153px 198px;
+  align-items: center;
+}
+.banner__title--first {
+font-weight: 400;
+font-size: 14px;
+color: #1A212F;;
+}
+.banner__title--second {
+  font-family:  "Rubik";
+  font-weight: bold;
+  font-size: 62px;
+  color: #1A212F;
+}
+.banner__description {
+  font-size: 20px;
+  max-width: 355px;
+  padding: 25px 0px 30px 0px;
+}
+.banner__button {
+  color: #1A212F;;
+  text-decoration: none;
+  background-color:#ffffff;
+  border-radius: 25px;
+  padding: 9px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  width: 206px;
+  min-height: 46px;
+  position: relative;
+  cursor: pointer;
+  justify-content: center;
+}
+.banner__button-img {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+/*for content*/
+.content__title {
+font-family: "Rubik";
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+text-align: center;
+margin-top: 120px;
+}
+.card__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card__item {
+  width: calc(33.33% - 30px);
+  margin: 15px 15px;
+  list-style-type: none;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+  border-radius: 8px;
+  padding: 30px 30px;
+}
+
+.card__description-title {
+font-family: "Rubik";
+font-weight: 500;
+font-size: 22px;
+padding-top: 35px;
+}
+.card__description-info {
+font-family: "Lato";
+font-weight: 400;
+font-size: 16px;
+padding-top: 20px;
+}
+
+.content__icons {
+  width: 90px;
+  height: 90px;
+}
