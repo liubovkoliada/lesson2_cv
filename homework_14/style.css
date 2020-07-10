@@ -63,15 +63,15 @@ h6 {
   align-items: center;
 }
 .banner__title--first {
-font-weight: 400;
-font-size: 14px;
-color: #1A212F;;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1a212f;
 }
 .banner__title--second {
-  font-family:  "Rubik";
+  font-family: "Rubik";
   font-weight: bold;
   font-size: 62px;
-  color: #1A212F;
+  color: #1a212f;
 }
 .banner__description {
   font-size: 20px;
@@ -79,9 +79,9 @@ color: #1A212F;;
   padding: 25px 0px 30px 0px;
 }
 .banner__button {
-  color: #1A212F;;
+  color: #1a212f;
   text-decoration: none;
-  background-color:#ffffff;
+  background-color: #ffffff;
   border-radius: 25px;
   padding: 9px;
   font-size: 14px;
@@ -102,12 +102,12 @@ color: #1A212F;;
 }
 /*for content*/
 .content__title {
-font-family: "Rubik";
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-text-align: center;
-margin-top: 120px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 120px;
 }
 .card__list {
   display: flex;
@@ -117,26 +117,110 @@ margin-top: 120px;
   width: calc(33.33% - 30px);
   margin: 15px 15px;
   list-style-type: none;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
   border-radius: 8px;
   padding: 30px 30px;
 }
 
 .card__description-title {
-font-family: "Rubik";
-font-weight: 500;
-font-size: 22px;
-padding-top: 35px;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 22px;
+  padding-top: 35px;
 }
 .card__description-info {
-font-family: "Lato";
-font-weight: 400;
-font-size: 16px;
-padding-top: 20px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 20px;
 }
 
 .content__icons {
   width: 90px;
   height: 90px;
+}
+/*for carousel*/
+.carousel-items {
+  display: flex;
+  justify-content: center;
+}
+.carousel__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.carousel-item__media {
+  background-image: url(images/cat2.png);
+  width: 600px;
+  height: 400px;
+}
+.carousel-item__content {
+  width: 500px;
+  height: 284px;
+  padding: 40px 100px;
+}
+.carousel-item_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.carousel-item__description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 10px 0 10px 0;
+}
+
+.carousel-item__button {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff7236;
+  border-radius: 25px;
+  padding: 9px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  width: 206px;
+  min-height: 46px;
+  position: relative;
+  cursor: pointer;
+  justify-content: center;
+  margin-top: 15px;
+}
+.carousel-item__button-img {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+/*for dots */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+}
+.carouse-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ff7236;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+/*for card */
+.carousel-cards-items {
+  display: flex;
+}
+.card {
+  width: calc(33.33% - 30px);
+  margin: 15px 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+  border-radius: 8px;
 }

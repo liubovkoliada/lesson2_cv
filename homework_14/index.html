@@ -1,158 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homework_14</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="navbar">
-        <a class="logo" href="#"> 
-          <svg class="icons icon_cat">
-            <use xlink:href="icons/symbol-defs.svg#icon-logo"></use>
-          </svg>
-        </a>
-        <nav class="nav">
-          <a href="#" class="nav-link">Почему мы?</a>
-          <a href="#" class="nav-link">Номера</a>
-          <a href="#" class="nav-link">Отзывы</a>
-          <a href="#" class="nav-link">Как нас найти</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <div class="banner">
-        <div class="banner__content">
-          <div class="banner__title">
-            <p class="banner__title--first">Санкт-Петербург</p>
-            <p class="banner__title--second">Котейка</p>
-          </div>
-          <div class="banner__description">Уютная гостиница для котов и кошек 
-          </div>
-          <a href="#" class="banner__button">
-            Забронировать
-            <img class="banner__button-img" src="images/paw.svg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework_14</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <a class="logo" href="#">
+            <svg class="icons icon_cat">
+              <use xlink:href="icons/symbol-defs.svg#icon-logo"></use>
+            </svg>
           </a>
+          <nav class="nav">
+            <a href="#" class="nav-link">Почему мы?</a>
+            <a href="#" class="nav-link">Номера</a>
+            <a href="#" class="nav-link">Отзывы</a>
+            <a href="#" class="nav-link">Как нас найти</a>
+          </nav>
         </div>
       </div>
-      <div class="content">
-        <div class="content__title">Почему мы?</div>
-        <ul class="card__list">
-          <li class="card__item">
-            <div class="card__media">
-              <svg class="icons content__icons">
-                <use xlink:href="icons/symbol-defs.svg#icon-06"></use>
-              </svg>
+    </header>
+    <main>
+      <div class="container">
+        <div class="banner">
+          <div class="banner__content">
+            <div class="banner__title">
+              <p class="banner__title--first">Санкт-Петербург</p>
+              <p class="banner__title--second">Котейка</p>
             </div>
-            <div class="card__content">
-              <div class="card__description">
-                <p class="card__description-title">
-                  Комфортная температура
+            <div class="banner__description">
+              Уютная гостиница для котов и кошек
+            </div>
+            <a href="#" class="banner__button">
+              Забронировать
+              <img class="banner__button-img" src="images/paw.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content__title">Почему мы?</div>
+          <ul class="card__list">
+            <li class="card__item">
+              <div class="card__media">
+                <svg class="icons content__icons">
+                  <use xlink:href="icons/symbol-defs.svg#icon-06"></use>
+                </svg>
+              </div>
+              <div class="card__content">
+                <div class="card__description">
+                  <p class="card__description-title">
+                    Комфортная температура
+                  </p>
+                  <p class="card__description-info">
+                    Во всех номерах поддерживается комфортная температура в
+                    пределах 23-25 градусов. В каждом номере можно дополнительно
+                    отрегулировать температуру.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="card__item">
+              <div class="card__media">
+                <svg class="icons content__icons">
+                  <use xlink:href="icons/symbol-defs.svg#icon-01"></use>
+                </svg>
+              </div>
+              <div class="card__content">
+                <div class="card__description">
+                  <p class="card__description-title">
+                    Видеонаблюдение
+                  </p>
+                  <p class="card__description-info">
+                    Мы предоставляем доступ в нашу систему. Вы сможете следить
+                    за своим питомцем со своего смартфона или компьютера.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="card__item">
+              <div class="card__media">
+                <svg class="icons content__icons">
+                  <use xlink:href="icons/symbol-defs.svg#icon-02"></use>
+                </svg>
+              </div>
+              <div class="card__content">
+                <div class="card__description">
+                  <p class="card__description-title">
+                    Услуги Зоотакси
+                  </p>
+                  <p class="card__description-info">
+                    Мы приедем за вашим питомцем в любой район Санкт-Петербурга.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="card__item">
+              <div class="card__media">
+                <svg class="icons content__icons">
+                  <use xlink:href="icons/symbol-defs.svg#icon-04"></use>
+                </svg>
+              </div>
+              <div class="card__content">
+                <div class="card__description">
+                  <p class="card__description-title">
+                    Сбалансированное питание
+                  </p>
+                  <p class="card__description-info">
+                    Вы можете привезти свой корм или доверить рацион своего
+                    питомца нашим профессионалам.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="card__item">
+              <div class="card__media">
+                <svg class="icons content__icons">
+                  <use xlink:href="icons/symbol-defs.svg#icon-05"></use>
+                </svg>
+              </div>
+              <div class="card__content">
+                <div class="card__description">
+                  <p class="card__description-title">
+                    Ежедневные прогулки
+                  </p>
+                  <p class="card__description-info">
+                    По вашему желанию мы выгуливаем вашего питомца два раза в
+                    день на специализированной закрытой территории.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="card__item">
+              <div class="card__media">
+                <svg class="icons content__icons">
+                  <use xlink:href="icons/symbol-defs.svg#icon-03"></use>
+                </svg>
+              </div>
+              <div class="card__content">
+                <div class="card__description">
+                  <p class="card__description-title">
+                    Лучшие ветеринары
+                  </p>
+                  <p class="card__description-info">
+                    В гостинице 24 часа дежурит ветеринарный врач, который
+                    окажет любую помощь в случае необходимости.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel carousel-rooms">
+          <div class="carousel__title">Номера</div>
+          <div class="carousel-items">
+            <div class="carousel-item">
+              <div class="carousel-item__media"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item__content">
+                <div class="carousel-item_title">Эконом плюс</div>
+                <p class="carousel-item__description">
+                  Площадь - 0,90 м2
                 </p>
-                <p class="card__description-info">
-                  Во всех номерах поддерживается комфортная температура в пределах 23-25 градусов. В каждом номере можно дополнительно отрегулировать температуру. 
+                <p class="carousel-item__description">
+                  Размеры (ШхГхВ) — 90х100х180 см
                 </p>
+                <p class="carousel-item__description">
+                  Цена за сутки:
+                  <span class="carousel-item__price">200₽</span>
+                </p>
+                <a href="#" class="carousel-item__button">
+                  Забронировать
+                  <img
+                    class="carousel-item__button-img"
+                    src="images/paw.svg"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
-          </li>
-          <li class="card__item">
-            <div class="card__media">
-              <svg class="icons content__icons">
-                <use xlink:href="icons/symbol-defs.svg#icon-01"></use>
-              </svg>
-            </div>
-            <div class="card__content">
-              <div class="card__description">
-                <p class="card__description-title">
-                  Видеонаблюдение
-                </p>
-                <p class="card__description-info">
-                  Мы предоставляем доступ в нашу систему. Вы сможете следить
-за своим питомцем со своего смартфона или компьютера.
-                </p>
+          </div>
+          <div class="carousel-dots">
+            <a class="carouse-dot"></a>
+            <a class="carouse-dot"></a>
+            <a class="carouse-dot"></a>
+          </div>
+          <div class="carousel-nav">
+            <div class="carousel-nav-left"></div>
+            <div class="carousel-nav-right"></div>
+          </div>
+        </div>
+        <div class="carousel carousel-reviews">
+          <div class="carousel__title">Отзывы</div>
+          <div class="carousel-items">
+            <div class="carousel-cards-items">
+              <div class="card">
+                <blockquote class="card__reviews">
+                  Первый раз пришлось оставить нашего котика в гостинице, очень
+                  переживали. Администратор Мария каждый день высылала нам фото
+                  нашего питомца, рассказывала, как он себя чувствует. И мы и
+                  котик остались очень довольны!
+                </blockquote>
+                <div class="card__author">Валерия Гришаева</div>
+                <div class="card__date">15 ноября, 2019</div>
               </div>
             </div>
-          </li>
-          <li class="card__item">
-            <div class="card__media">
-              <svg class="icons content__icons">
-                <use xlink:href="icons/symbol-defs.svg#icon-02"></use>
-              </svg>
-            </div>
-            <div class="card__content">
-              <div class="card__description">
-                <p class="card__description-title">
-                  Услуги Зоотакси
-                </p>
-                <p class="card__description-info">
-                  Мы приедем за вашим питомцем в любой район Санкт-Петербурга.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="card__item">
-            <div class="card__media">
-              <svg class="icons content__icons">
-                <use xlink:href="icons/symbol-defs.svg#icon-04"></use>
-              </svg>
-            </div>
-            <div class="card__content">
-              <div class="card__description">
-                <p class="card__description-title">
-                  Сбалансированное питание
-                </p>
-                <p class="card__description-info">
-                  Вы можете привезти свой корм
-или доверить рацион своего
-питомца нашим профессионалам.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="card__item">
-            <div class="card__media">
-              <svg class="icons content__icons">
-                <use xlink:href="icons/symbol-defs.svg#icon-05"></use>
-              </svg>
-            </div>
-            <div class="card__content">
-              <div class="card__description">
-                <p class="card__description-title">
-                  Ежедневные прогулки
-                </p>
-                <p class="card__description-info">
-                  По вашему желанию мы выгуливаем вашего питомца два раза в день
-на специализированной закрытой территории.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="card__item">
-            <div class="card__media">
-              <svg class="icons content__icons">
-                <use xlink:href="icons/symbol-defs.svg#icon-03"></use>
-              </svg>
-            </div>
-            <div class="card__content">
-              <div class="card__description">
-                <p class="card__description-title">
-                  Лучшие ветеринары
-                </p>
-                <p class="card__description-info">
-                  В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.
-                </p>  
-              </div>
-            </div>
-          </li>
-        </ul>
+          </div>
+          <div class="carousel-dots">
+            <a class="carouse-dot"></a>
+            <a class="carouse-dot"></a>
+            <a class="carouse-dot"></a>
+          </div>
+          <div class="carousel-nav">
+            <div class="carousel-nav-left"></div>
+            <div class="carousel-nav-right"></div>
+          </div>
+        </div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
