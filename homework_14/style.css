@@ -9,6 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -19,6 +20,14 @@ h5,
 h6 {
   font-family: "Rubik", sans-serif;
 }
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 70px;
+}
+
 /*for header*/
 .container {
   max-width: 1200px;
@@ -29,6 +38,7 @@ h6 {
   display: flex;
 }
 .content {
+  padding-top: 140px;
   width: 100%;
 }
 .navbar {
@@ -101,21 +111,13 @@ h6 {
   top: 6px;
 }
 /*for content*/
-.content__title {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  text-align: center;
-  margin-top: 120px;
-}
 .card__list {
   display: flex;
   flex-wrap: wrap;
 }
 .card__item {
   width: calc(33.33% - 30px);
-  margin: 15px 15px;
+  margin: 0 15px 30px 15px;
   list-style-type: none;
   background: #ffffff;
   box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
@@ -130,7 +132,6 @@ h6 {
   padding-top: 35px;
 }
 .card__description-info {
-  font-family: "Lato";
   font-weight: 400;
   font-size: 16px;
   padding-top: 20px;
@@ -141,39 +142,38 @@ h6 {
   height: 90px;
 }
 /*for carousel*/
+.carousel {
+  padding-top: 140px;
+}
+.carousel-item {
+  display: flex;
+  align-items: center;
+}
+
 .carousel-items {
   display: flex;
   justify-content: center;
-}
-.carousel__title {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 50px;
 }
 .carousel-item__media {
   background-image: url(images/cat2.png);
   width: 600px;
   height: 400px;
+  border-radius: 10px;
 }
 .carousel-item__content {
   width: 500px;
   height: 284px;
   padding: 40px 100px;
+  margin-left: -40px;
+  background-color: #ffffff;
+  border-radius: 8px;
 }
 .carousel-item_title {
-  font-family: "Rubik";
-  font-style: normal;
   font-weight: 500;
   font-size: 22px;
   margin-bottom: 15px;
 }
 .carousel-item__description {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   padding: 10px 0 10px 0;
 }
@@ -203,24 +203,121 @@ h6 {
 }
 /*for dots */
 .carousel-dots {
+  padding-top: 55px;
   display: flex;
   justify-content: center;
 }
-.carouse-dot {
+.carousel-dot {
   width: 12px;
   height: 12px;
-  background-color: #ff7236;
+  background-color: #E1E1E1;
   border-radius: 50%;
-  margin-left: 5px;
+  margin: 0 6px;
+}
+.carousel-dot:hover {
+  background-color: #FAC663;
 }
 /*for card */
 .carousel-cards-items {
   display: flex;
 }
+.carousel-reviews {
+  padding-bottom: 152px;
+}
 .card {
   width: calc(33.33% - 30px);
-  margin: 15px 15px;
+  margin: 0 15px  15px 15px;
   background: #ffffff;
   box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
   border-radius: 8px;
+  padding: 35px 35px;
+  display: flex;
+  flex-direction: column;
+}
+.card__reviews {
+  font-weight: 500;
+  font-size: 16px; 
+  padding-bottom: 22px;
+}
+.card__author {
+font-weight: normal;
+font-size: 14px;
+color: #848484;
+}
+.card__date {
+  font-weight: normal;
+  font-size: 14px;
+  color: #848484; 
+}
+.card__reviews-img {
+  width: 27px;
+  height: 20px;
+}
+.card__reviews-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*for contacts*/
+ 
+.contacts {
+  background-color: #FAC663;
+  padding: 70px 0 70px 0;
+  position: relative;
+}
+.contacts__inner {
+  padding-right: 60%;
+}
+.contacts__header {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1A212F;
+}
+.contacts__title {
+ font-size: 14px;
+ font-weight: bold;
+ color: #1A212F;
+ margin-bottom: 5px;
+}
+.contacts__social-item {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 20px 0 0;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+.contacts__link{
+ font-size: 14px;
+ color: #1A212F;
+ text-decoration: none;
+}
+.contacts__item {
+  margin-top: 35px;
+}
+
+.map {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-image: url(images/map.png);
+  background-size: cover;
+
+}
+.footer {
+  padding-top: 12px;
+}
+.footer__content {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__item {
+  font-size: 12px;
+  color: #8F8F8F;
 }
