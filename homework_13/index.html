@@ -12,12 +12,56 @@
       <div class="container">
         <div class="navbar">
           <a class="logo" href="#"><img src="images/logo.png" alt="logo" /> </a>
+          <button class="navbar__btn close">
+            <svg width="24" height="16" viewbox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1H23M1 8H23M1 15H23" stroke="#1A212F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </button>
           <nav class="nav">
             <a href="#" class="nav-link">Почему мы?</a>
             <a href="#" class="nav-link">Номера</a>
             <a href="#" class="nav-link">Отзывы</a>
             <a href="#" class="nav-link">Как нас найти</a>
           </nav>
+          <div class="offcanvas">
+            <div class="offcanvas__header">
+              <a href="#" class="logo">
+                
+                <img class="logo__image" src="./images/logo.png" alt="" />
+              </a>
+              <button class="offcanvas__close">×</button>
+            </div>
+            <div class="offcanvas__body">
+              <div class="offcanvas__nav">
+                <a href="#" class="offcanvas__nav__link">Почему мы?</a>
+                <a href="#" class="offcanvas__nav__link">Номера</a>
+                <a href="#" class="offcanvas__nav__link">Отзывы</a>
+                <a href="#" class="offcanvas__nav__link">Как нас найти</a>
+              </div>
+            </div>
+            <div class="offcanvas__footer">
+              <div class="phone">
+                <a class="phone__link" href="tel:+8 (800) 333-55-99">8 (800) 333-55-99</a>
+              </div>
+              <div class="contacts__social">
+                <a class="contacts__social-item" href="#">
+                  <svg class="icons social-icon">
+                    <use xlink:href="images/facebook.svg"></use>
+                  </svg>
+                </a>
+                <a class="contacts__social-item" href="#">
+                  <svg class="icons social-icon">
+                    <use xlink:href="images/instagram.svg"></use>
+                  </svg>
+                </a>
+                <a class="contacts__social-item" href="#">
+                  <svg class="icons social-icon">
+                    <use xlink:href="images/vk.svg"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -385,5 +429,19 @@
             </div>
       </div>
     </footer> 
+
+    <script>
+      document
+        .querySelector(".navbar__btn")
+        .addEventListener("click", function() {
+          document.querySelector(".offcanvas").classList.add("is-open");
+        });
+
+      document
+        .querySelector(".offcanvas__close")
+        .addEventListener("click", function() {
+          document.querySelector(".offcanvas").classList.remove("is-open");
+        });
+    </script>
   </body>
 </html>
